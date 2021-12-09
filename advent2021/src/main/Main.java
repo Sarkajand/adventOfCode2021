@@ -4,6 +4,8 @@ import main.day04.Day04;
 import main.day05.Day05;
 import main.day06.Day06;
 import main.day07.Day07;
+import main.day08.Day08;
+import main.day09.Day09;
 
 import java.io.IOException;
 
@@ -13,7 +15,27 @@ public class Main {
 //        day04();
 //        day05();
 //        day06();
-        day07();
+//        day07();
+//        day08();
+        day09();
+    }
+
+    private static void day09() throws IOException {
+        Day09 day09 = new Day09();
+//        day09.countFirstPart("day09/day09test.txt");
+//        day09.countFirstPart("day09/day09input.txt");
+//
+//        day09.countSecondPart("day09/day09test.txt");
+        day09.countSecondPart("day09/day09input.txt");
+    }
+
+    private static void day08() throws IOException{
+        Day08 day08 = new Day08();
+//        day08.countDigitWithUniqueSegmentsNumber("day08/day08test.txt");
+//        day08.countDigitWithUniqueSegmentsNumber("day08/day08input.txt");
+
+//        day08.countSecondPart("day08/day08test.txt");
+        day08.countSecondPart("day08/day08input.txt");
     }
 
     private static void day04() throws IOException {
