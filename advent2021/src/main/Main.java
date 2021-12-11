@@ -26,8 +26,10 @@ public class Main {
         Day10 day10 = new Day10();
 
 //        day10.countFirstPart("day10/day10test.txt");
-        day10.countFirstPart("day10/day10input.txt");
+//        day10.countFirstPart("day10/day10input.txt");
 
+//        day10.countSecondPart("day10/day10test.txt");
+        day10.countSecondPart("day10/day10input.txt");
 
     }
 
