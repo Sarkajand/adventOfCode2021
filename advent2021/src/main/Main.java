@@ -7,6 +7,7 @@ import main.day07.Day07;
 import main.day08.Day08;
 import main.day09.Day09;
 import main.day10.Day10;
+import main.day11.Day11;
 
 import java.io.IOException;
 
@@ -19,7 +20,18 @@ public class Main {
 //        day07();
 //        day08();
 //        day09();
-        day10();
+//        day10();
+        day11();
+    }
+
+    private static void day11() throws IOException {
+        Day11 day11 = new Day11();
+
+//        day11.countFirstPart("day11/day11test.txt");
+//        day11.countFirstPart("day11/day11input.txt");
+//
+//        day11.countSecondPart("day11/day11test.txt");
+        day11.countSecondPart("day11/day11input.txt");
     }
 
     private static void day10() throws IOException {
