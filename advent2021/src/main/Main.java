@@ -9,6 +9,8 @@ import main.day09.Day09;
 import main.day10.Day10;
 import main.day11.Day11;
 import main.day12.Day12;
+import main.day12.Day12WithoutRecursion;
+import main.day13.Day13;
 
 import java.io.IOException;
 
@@ -23,7 +25,15 @@ public class Main {
 //        day09();
 //        day10();
 //        day11();
-        day12();
+//        day12();
+        day13();
+    }
+
+    private static void day13() throws IOException {
+        Day13 day13 = new Day13();
+
+        day13.getAnswers("day13/day13test.txt");
+        day13.getAnswers("day13/day13input.txt");
     }
 
     private static void day12() throws IOException {
@@ -33,11 +43,23 @@ public class Main {
 //        day12.countFirstPart("day12/day12test2.txt");
 //        day12.countFirstPart("day12/day12test3.txt");
 //        day12.countFirstPart("day12/day12input.txt");
-//
+
 //        day12.countSecondPart("day12/day12test1.txt");
 //        day12.countSecondPart("day12/day12test2.txt");
 //        day12.countSecondPart("day12/day12test3.txt");
-        day12.countSecondPart("day12/day12input.txt");
+//        day12.countSecondPart("day12/day12input.txt");
+
+        Day12WithoutRecursion day12WithoutRecursion = new Day12WithoutRecursion();
+        day12WithoutRecursion.getAnswer("day12/day12test1.txt", false);
+        day12WithoutRecursion.getAnswer("day12/day12test2.txt", false);
+        day12WithoutRecursion.getAnswer("day12/day12test3.txt", false);
+        day12WithoutRecursion.getAnswer("day12/day12input.txt", false);
+
+        day12WithoutRecursion.getAnswer("day12/day12test1.txt", true);
+        day12WithoutRecursion.getAnswer("day12/day12test2.txt", true);
+        day12WithoutRecursion.getAnswer("day12/day12test3.txt", true);
+        day12WithoutRecursion.getAnswer("day12/day12input.txt", true);
+
     }
 
     private static void day11() throws IOException {
