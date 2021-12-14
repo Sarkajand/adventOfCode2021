@@ -11,6 +11,7 @@ import main.day11.Day11;
 import main.day12.Day12;
 import main.day12.Day12WithoutRecursion;
 import main.day13.Day13;
+import main.day14.Day14;
 
 import java.io.IOException;
 
@@ -26,7 +27,22 @@ public class Main {
 //        day10();
 //        day11();
 //        day12();
-        day13();
+//        day13();
+        day14();
+    }
+
+    private static void day14() throws IOException {
+        Day14 day14 = new Day14();
+
+        day14.getAnswer("day14/day14test.txt", 10);
+        day14.getAnswer("day14/day14test.txt", 40);
+
+        day14.getAnswer("day14/day14input.txt", 10);
+        day14.getAnswer("day14/day14input.txt", 40);
+
+
+//        day14.firstPart("day14/day14test.txt", 10);
+//        day14.firstPart("day14/day14input.txt", 10);
     }
 
     private static void day13() throws IOException {
