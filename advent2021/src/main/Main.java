@@ -12,6 +12,7 @@ import main.day12.Day12;
 import main.day12.Day12WithoutRecursion;
 import main.day13.Day13;
 import main.day14.Day14;
+import main.day15.Day15;
 
 import java.io.IOException;
 
@@ -28,7 +29,19 @@ public class Main {
 //        day11();
 //        day12();
 //        day13();
-        day14();
+//        day14();
+        day15();
+    }
+
+    private static void day15() throws IOException {
+        Day15 day15 = new Day15();
+
+        day15.firstPart("day15/day15test.txt");
+        day15.firstPart("day15/day15input.txt");
+
+        day15.secondPart("day15/day15test.txt");
+        day15.secondPart("day15/day15input.txt");
+
     }
 
     private static void day14() throws IOException {
