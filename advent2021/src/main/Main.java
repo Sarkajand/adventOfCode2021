@@ -14,6 +14,7 @@ import main.day13.Day13;
 import main.day14.Day14;
 import main.day15.Day15;
 import main.day16.Day16;
+import main.day17.Day17;
 
 import java.io.IOException;
 
@@ -32,7 +33,17 @@ public class Main {
 //        day13();
 //        day14();
 //        day15();
-        day16();
+//        day16();
+        day17();
+    }
+
+    private static void day17() {
+        Day17 day17 = new Day17();
+
+
+        day17.secondPart(20,30,-10,-5);
+        day17.secondPart(248,285,-85,-56);
+
     }
 
     private static void day16() throws IOException {
