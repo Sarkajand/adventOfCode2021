@@ -15,6 +15,7 @@ import main.day14.Day14;
 import main.day15.Day15;
 import main.day16.Day16;
 import main.day17.Day17;
+import main.day18.Day18;
 
 import java.io.IOException;
 
@@ -34,8 +35,35 @@ public class Main {
 //        day14();
 //        day15();
 //        day16();
-        day17();
+//        day17();
+        day18();
     }
+    private static void day18() throws IOException{
+        Day18 day18 = new Day18();
+
+//        day18.firstPart("day18/day18reducetest1.txt");
+//        day18.firstPart("day18/day18reducetest2.txt");
+//        day18.firstPart("day18/day18reducetest3.txt");
+//        day18.firstPart("day18/day18reducetest4.txt");
+//        day18.firstPart("day18/day18reducetest5.txt");
+////
+//        day18.firstPart("day18/day18sumtest1.txt");
+//        day18.firstPart("day18/day18sumtest2.txt");
+//        day18.firstPart("day18/day18sumtest3.txt");
+//        day18.firstPart("day18/day18sumtest4.txt");
+
+//        day18.firstPart("day18/day18magnitudetest1.txt");
+//        day18.firstPart("day18/day18magnitudetest2.txt");
+//        day18.firstPart("day18/day18magnitudetest3.txt");
+//        day18.firstPart("day18/day18magnitudetest4.txt");
+//        day18.firstPart("day18/day18magnitudetest5.txt");
+//        day18.firstPart("day18/day18magnitudetest6.txt");
+//
+        day18.firstPart("day18/day18input.txt");
+
+        day18.secondPart("day18/day18input.txt");
+    }
+
 
     private static void day17() {
         Day17 day17 = new Day17();
