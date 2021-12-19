@@ -16,6 +16,7 @@ import main.day15.Day15;
 import main.day16.Day16;
 import main.day17.Day17;
 import main.day18.Day18;
+import main.day19.Day19;
 
 import java.io.IOException;
 
@@ -36,8 +37,17 @@ public class Main {
 //        day15();
 //        day16();
 //        day17();
-        day18();
+//        day18();
+        day19();
     }
+
+    private static void day19() throws IOException {
+        Day19 day19 = new Day19();
+
+        day19.getAnswers("day19/day19test.txt");
+        day19.getAnswers("day19/day19input.txt");
+    }
+
     private static void day18() throws IOException{
         Day18 day18 = new Day18();
 
