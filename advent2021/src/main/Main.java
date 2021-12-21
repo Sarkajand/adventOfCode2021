@@ -17,6 +17,8 @@ import main.day16.Day16;
 import main.day17.Day17;
 import main.day18.Day18;
 import main.day19.Day19;
+import main.day20.Day20;
+import main.day21.Day21;
 
 import java.io.IOException;
 
@@ -38,7 +40,29 @@ public class Main {
 //        day16();
 //        day17();
 //        day18();
-        day19();
+//        day19();
+        day20();
+//        day21();
+    }
+
+    private static void day21() {
+        Day21 day21 = new Day21();
+
+        day21.firstPart(4,8);
+        day21.firstPart(4,6);
+
+        day21.secondPart(4,8);
+        day21.secondPart(4,6);
+    }
+
+    private static void day20() throws IOException {
+        Day20 day20 = new Day20();
+
+//        day20.firstPart("day20/day20test.txt", 2);
+//        day20.firstPart("day20/day20input.txt", 2);
+
+//        day20.firstPart("day20/day20test.txt", 50);
+        day20.firstPart("day20/day20input.txt", 50);
     }
 
     private static void day19() throws IOException {
