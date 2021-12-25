@@ -101,7 +101,7 @@ public class Day21 {
         int player1score;
         int player2position;
         int player2score;
-        long count = 0;
+        long count;
 
         public ActualState(int player1position, int player1score, int player2position, int player2score, long count) {
             this.player1position = player1position;

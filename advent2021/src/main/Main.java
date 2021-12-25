@@ -19,6 +19,11 @@ import main.day18.Day18;
 import main.day19.Day19;
 import main.day20.Day20;
 import main.day21.Day21;
+import main.day22.Day22;
+import main.day22.Day22faster;
+import main.day23.Day23;
+import main.day24.Day24;
+import main.day25.Day25;
 
 import java.io.IOException;
 
@@ -41,8 +46,47 @@ public class Main {
 //        day17();
 //        day18();
 //        day19();
-        day20();
+//        day20();
 //        day21();
+//        day22();
+//        day23();
+//        day24();
+        day25();
+    }
+
+    private static void day25() throws IOException {
+        Day25 day25 = new Day25();
+
+        day25.firstPart("day25/day25test.txt");
+        day25.firstPart("day25/day25input.txt");
+    }
+
+//    private static void day24() throws IOException {
+//        Day24 day24 = new Day24();
+//
+//        day24.firstPart("day24/day24input.txt");
+//    }
+
+    private static void day23() throws IOException {
+        Day23 day23 = new Day23();
+
+        day23.SecondPart();
+    }
+
+    private static void day22() throws IOException {
+        Day22 day22 = new Day22();
+
+//        day22.firstPart("day22/day22test.txt");
+//        day22.firstPart("day22/day22input.txt");
+
+//        day22.secondPart("day22/day22test2.txt");
+//        day22.secondPart("day22/day22test.txt");
+//        day22.secondPart("day22/day22input.txt");
+
+        Day22faster day22faster = new Day22faster();
+
+        day22faster.secondPart("day22/day22test.txt");
+        day22faster.secondPart("day22/day22input.txt");
     }
 
     private static void day21() {
